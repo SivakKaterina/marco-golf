@@ -154,7 +154,7 @@ li {
 
 .img-container {
   height: 500px;
-  background-image: url(/img/Banner-top.jpg);
+  background-image: url(./img/Banner-top.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -292,7 +292,7 @@ li {
 
 /* section-reserve */
 .section-reserve {
-  background-image: url(/img/Banner-down.jpg);
+  background-image: url(./img/Banner-down.jpg);
   background-position: center;
   background-size: cover;
   padding-top: 110px;
