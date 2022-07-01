@@ -33,6 +33,7 @@
 }
 a { 
     text-decoration: none;
+    color: inherit;
 }
 ul,ol,li {
     list-style: none;
@@ -99,7 +100,7 @@ display: flex;
 .contact-item{
 display: flex;
     align-items: center;
-    text-align: justify;
+    /* text-align: justify; */
     font-family: HelveticaRegular;
     font-size: 15px;
 }
@@ -114,12 +115,12 @@ display: flex;
 .contact-item:nth-child(3n) {
     max-width: 139px;
 }
-.item-header{
+/* .item-header{
 color: black;
 }
 .item-footer{
 color: #fff;
-}
+} */
 
 .contact-item:not(:last-child) {
     margin-right: 30px;
