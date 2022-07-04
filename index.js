@@ -9,6 +9,7 @@ function initMap() {
     map: map,
     title: "Hello World!",
   });
+  marker.setMap(map);
 }
 
 window.initMap = initMap;
