@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" type="module"></script>
     <title>Marco Golf</title>
   </head>
   <body>
@@ -140,15 +141,7 @@
       </div>
     </section>
     <section>
-      <div class="wrap-map">
-        <!-- <img class="img-map" src="./img/Banner-map.jpg" alt="" /> -->
-        <iframe
-          class="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.4268977558804!2d-81.72718058528663!3d25.921204108307094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88daee67c408e0d1%3A0x962cfdfdda073f4a!2zOTcxIFdpbnRlcmJlcnJ5IERyLCBNYXJjbyBJc2xhbmQsIEZMIDM0MTQ1LCDQodCo0JA!5e0!3m2!1sru!2snl!4v1656602333260!5m2!1sru!2snl"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+      <div id="map">
       </div>
     </section>
     <footer class="section-footer">
@@ -188,20 +181,11 @@
         </p>
       </div>
     </footer>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxAE6KpZXkM2IUe8YZGO0S98qKbRWeku4&callback=initMap&v=weekly&language=en"
+      defer></script>
   </body>
 </html>
 
-<!-- <div class="wrap-text">
-  <h1 class="title-reserve">
-    RESERVE
-    <span class="text-reserve-style">OUR 18 HOLE GOLF COURSE</span>
-  </h1>
-  <h3 class="subetitle-reserve">
-    FOR YOUR NEXT
-    <span class="text-reserve-style">CELEBRATION OR EVENT</span>
-  </h3>
-  <a class="link-btn-call" href="">(239) 970-0561 Call For Details</a>
-</div>
-<div class="wrap-frog">
-  <img src="./img/Banner-down.png" alt="frog" class="img-frog">
-</div> -->
+
+

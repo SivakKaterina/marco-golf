@@ -315,7 +315,7 @@ body {
 }
 
 /* fourth section */
-.img-map {
+/* .img-map {
   display: block;
   width: 100%;
   background-position: center;
@@ -327,6 +327,10 @@ body {
 .map {
   width: 100%;
   height: 300px;
+} */
+#map {
+  width: 100%;
+  height: 400px;
 }
 
 /* footer */
@@ -378,3 +382,13 @@ body {
   font-size: 15px;
   color: #fff;
 }
+
+/* media */
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 767px){
+
+}
+@media (max-width: 767px) {}
