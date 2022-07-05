@@ -2,24 +2,22 @@
 @font-face {
   font-family: FtySpeedyCasual001Ncv;
   src: url(/Fonts/FtySpeedyCasual001Ncv.otf);
+  /* font-weight: url(/Fonts/HelveticaLight.ttf); */
 }
 
 @font-face {
   font-family: HelveticaLight;
   src: url(/Fonts/HelveticaLight.ttf);
-  /* font-weight: 400; */
 }
 
 @font-face {
   font-family: HelveticaMedium;
   src: url(/Fonts/HelveticaMedium.ttf);
-  /* font-weight: 700; */
 }
 
 @font-face {
   font-family: HelveticaRegular;
   src: url(/Fonts/HelveticaRegular.ttf);
-  /* font-weight: 900; */
 }
 
 /* Reset Styles */
@@ -256,19 +254,35 @@ body {
 
 /* third section */
 .section-reserve {
-  background-image: url("./img/background.jpeg");
+  /* background-image: url("./img/background.jpeg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+  position: relative;
 }
 .wrapper-reserve {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+ 
 }
+/* .wrap-bcg-img{
+position: relative;
+} */
+.bcg-image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  object-fit: cover;
+}
+
 .text-reserve {
   max-width: 500px;
   color: #fff;
+  z-index: 1;
 }
 .title-reserve {
   font-family: FtySpeedyCasual001Ncv;
@@ -313,6 +327,9 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
+.img-frog-reserve{
+  z-index: 1;
+}
 
 /* fourth section */
 
@@ -323,7 +340,6 @@ body {
   width: 100%;
   height: 350px;
   border: 0;
-  
 }
 
 /* footer */
@@ -378,10 +394,9 @@ body {
 
 /* media */
 @media (max-width: 992px) {
-  
 }
 
-@media (max-width: 767px){
-
+@media (max-width: 767px) {
 }
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+}
