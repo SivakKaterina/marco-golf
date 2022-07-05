@@ -6,7 +6,10 @@
 
 @font-face {
   font-family: HelveticaLight;
-  src: url(./fonts/HelveticaLight.ttf);
+  src: url('./fonts/HelveticaLight.eot');
+  src: url('./fonts/HelveticaLight.eot#iefix')format('embedded-opentype');
+  src: url('./fonts/HelveticaLight.woff')format('woff');
+  src: url('./fonts/HelveticaLight.ttf')format('truetype');
 }
 
 @font-face {
