@@ -1,22 +1,22 @@
 /* fonts */
 @font-face {
   font-family: FtySpeedyCasual001Ncv;
-  src: url(/Fonts/FtySpeedyCasual001Ncv.otf);
+  src: url(fonts/FtySpeedyCasual001Ncv.otf);
 }
 
 @font-face {
   font-family: HelveticaLight;
-  src: url(/Fonts/HelveticaLight.ttf);
+  src: url(fonts/HelveticaLight.ttf);
 }
 
 @font-face {
   font-family: HelveticaMedium;
-  src: url(/Fonts/HelveticaMedium.ttf);
+  src: url(fonts/HelveticaMedium.ttf);
 }
 
 @font-face {
   font-family: HelveticaRegular;
-  src: url(/Fonts/HelveticaRegular.ttf);
+  src: url(fonts/HelveticaRegular.ttf);
 }
 
 /* Reset Styles */
