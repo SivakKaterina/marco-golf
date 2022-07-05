@@ -1,22 +1,22 @@
 /* fonts */
 @font-face {
   font-family: FtySpeedyCasual001Ncv;
-  src: url("fonts/FtySpeedyCasual001Ncv.otf");
+  src: url(fonts/FtySpeedyCasual001Ncv.otf);
 }
 
 @font-face {
   font-family: HelveticaLight;
-  src: url("fonts/HelveticaLight.ttf");
+  src: url(fonts/HelveticaLight.ttf);
 }
 
 @font-face {
   font-family: HelveticaMedium;
-  src: url("fonts/HelveticaMedium.ttf");
+  src: url(fonts/HelveticaMedium.ttf);
 }
 
 @font-face {
   font-family: HelveticaRegular;
-  src: url("fonts/HelveticaRegular.ttf");
+  src: url(fonts/HelveticaRegular.ttf);
 }
 
 /* Reset Styles */
@@ -98,7 +98,7 @@ body {
 .contact-item {
   display: flex;
   align-items: center;
-  font-family: HelveticaRegular;
+  font-family: FtySpeedyCasual001Ncv;
   font-size: 15px;
 }
 .contact-item:nth-child(1n) {
