@@ -1,22 +1,34 @@
 /* fonts */
 @font-face {
-  font-family: FtySpeedyCasual001Ncv;
-  src: url(fonts/FtySpeedyCasual001Ncv.otf);
+  font-family: 'FtySpeedyCasual001Ncv';
+  src: url('./fonts/FtySpeedyCasual001Ncv/FtySpeedyCasual001Ncv.eot');
+  src: local('☺'), url('./fonts/FtySpeedyCasual001Ncv/FtySpeedyCasual001Ncv.woff') format('woff'), url('./fonts/FtySpeedyCasual001Ncv/FtySpeedyCasual001Ncv.ttf') format('truetype'), url('./fonts/FtySpeedyCasual001Ncv/FtySpeedyCasual001Ncv.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: HelveticaLight;
-  src: url(fonts/HelveticaLight.ttf);
+  font-family: 'HelveticaLight';
+  src: url('./fonts/HelveticaLight/HelveticaLight.eot');
+  src: local('☺'), url('./fonts/HelveticaLight/HelveticaLight.woff') format('woff'), url('./fonts/HelveticaLight/HelveticaLight.ttf') format('truetype'), url('./fonts/HelveticaLight/HelveticaLight.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: HelveticaMedium;
-  src: url(fonts/HelveticaMedium.ttf);
+  font-family: 'HelveticaMedium';
+  src: url('./fonts/HelveticaLight/HelveticaMedium.eot');
+  src: local('☺'), url('fonts/HelveticaLight/HelveticaMedium.woff') format('woff'), url('./fonts/HelveticaLight/HelveticaMedium.ttf') format('truetype'), url('./fonts/HelveticaLight/HelveticaMedium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: HelveticaRegular;
-  src: url(fonts/HelveticaRegular.ttf);
+  font-family: 'HelveticaRegular';
+  src: url('./fonts/HelveticaRegular/HelveticaRegular.eot');
+  src: local('☺'), url('./fonts/HelveticaRegular/HelveticaRegular.woff') format('woff'), url('./fonts/HelveticaRegular/HelveticaRegular.ttf') format('truetype'), url('./fonts/HelveticaRegular/HelveticaRegular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Reset Styles */
@@ -82,7 +94,7 @@ body {
   display: flex;
 }
 .item-nav {
-  font-family: HelveticaRegular;
+  font-family: 'HelveticaRegular';
   font-size: 15px;
   color: #fff;
   cursor: pointer;
@@ -98,7 +110,7 @@ body {
 .contact-item {
   display: flex;
   align-items: center;
-  font-family: HelveticaRegular;
+  font-family: 'HelveticaRegular';
   font-size: 15px;
 }
 .contact-item:nth-child(1n) {
@@ -139,7 +151,7 @@ body {
   align-items: center;
 }
 .text-advertising {
-  font-family: "HelveticaLight";
+  font-family: 'HelveticaLight';
   font-size: 35px;
   text-align: right;
   color: #fff;
@@ -163,13 +175,13 @@ body {
 }
 .title-offers {
   margin-bottom: 9px;
-  font-family: FtySpeedyCasual001Ncv;
+  font-family: 'FtySpeedyCasual001Ncv';
   font-weight: normal;
   font-size: 35px;
   color: #079045;
 }
 .subtitle-offers {
-  font-family: FtySpeedyCasual001Ncv;
+  font-family: 'FtySpeedyCasual001Ncv';
   font-size: 50px;
   font-weight: normal;
   margin-bottom: 3px;
@@ -195,13 +207,13 @@ body {
 }
 .price-title-offers {
   margin-bottom: 20px;
-  font-family: FtySpeedyCasual001Ncv;
+  font-family: 'FtySpeedyCasual001Ncv';
   font-weight: normal;
   font-size: 25px;
 }
 .price-text-offers {
   margin-bottom: 25px;
-  font-family: HelveticaRegular;
+  font-family: 'HelveticaRegular';
   font-size: 16px;
   line-height: 1.2em;
 }
@@ -217,14 +229,14 @@ body {
   margin-bottom: 20px;
   margin-right: 25px;
   padding-left: 65px;
-  font-family: HelveticaRegular;
+  font-family: 'HelveticaRegular';
   font-size: 16px;
 }
 .list-prise {
   padding-right: 65px;
   text-align: right;
   margin-bottom: 20px;
-  font-family: HelveticaRegular;
+  font-family: 'HelveticaRegular';
   font-size: 16px;
 }
 .item-player {
@@ -244,7 +256,7 @@ body {
   background-color: #0a7d3e;
   border-radius: 50px;
   color: #fff;
-  font-family: HelveticaRegular;
+  font-family:'HelveticaRegular';
   font-size: 20px;
   line-height: 1.19em;
   letter-spacing: 0.04em;
@@ -253,10 +265,6 @@ body {
 
 /* third section */
 .section-reserve {
-  /* background-image: url("./img/background.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
   position: relative;
 }
 .wrapper-reserve {
@@ -264,9 +272,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-/* .wrap-bcg-img{
-position: relative;
-} */
 .bcg-image {
   position: absolute;
   width: 100%;
@@ -283,7 +288,7 @@ position: relative;
   z-index: 1;
 }
 .title-reserve {
-  font-family: FtySpeedyCasual001Ncv;
+  font-family: 'FtySpeedyCasual001Ncv';
   font-size: 120px;
   letter-spacing: 0.06em;
   line-height: normal;
@@ -297,7 +302,7 @@ position: relative;
 }
 .subetitle-reserve {
   margin-bottom: 70px;
-  font-family: FtySpeedyCasual001Ncv;
+  font-family: 'FtySpeedyCasual001Ncv';
   font-size: 75px;
   letter-spacing: 0.03em;
   color: inherit;
@@ -318,7 +323,7 @@ position: relative;
   white-space: normal;
   color: #ffffff;
   background-color: #de5127;
-  font-family: "HelveticaLight";
+  font-family: 'HelveticaLight';
   text-align: center;
   font-size: 25px;
   font-weight: normal;
@@ -356,7 +361,7 @@ position: relative;
   font-weight: normal;
 }
 .text-logo-footer {
-  font-family: HelveticaRegular;
+  font-family: 'HelveticaRegular';
   font-weight: normal;
   font-size: 21px;
   color: #fff;
@@ -385,7 +390,7 @@ position: relative;
   margin-left: auto;
   margin-right: auto;
   max-width: 360px;
-  font-family: "HelveticaLight";
+  font-family: 'HelveticaLight';
   font-size: 15px;
   color: #fff;
 }
