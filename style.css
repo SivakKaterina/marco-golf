@@ -1,9 +1,9 @@
 /* fonts */
 @font-face {
-  font-family: 'FtySpeedyCasual001Ncv';
-  src: url('./fonts/FtySpeedyCasual001Ncv/FtySpeedyCasual001Ncv.eot');
-  src: local('☺'), url('./fonts/FtySpeedyCasual001Ncv/FtySpeedyCasual001Ncv.woff') format('woff'), url('./fonts/FtySpeedyCasual001Ncv/FtySpeedyCasual001Ncv.ttf') format('truetype'), url('./fonts/FtySpeedyCasual001Ncv/FtySpeedyCasual001Ncv.svg') format('svg');
-  font-weight: normal;
+  font-family: 'FtySpeedyCasualNcv';
+  src: url('fonts/FtySpeedyCasualNcv/FtySpeedyCasualNcv.eot');
+  src: local('☺'), url('fonts/FtySpeedyCasualNcv/FtySpeedyCasualNcv.woff') format('woff'), url('fonts/FtySpeedyCasualNcv/FtySpeedyCasualNcv.ttf') format('truetype'), url('fonts/FtySpeedyCasualNcv/FtySpeedyCasualNcv.svg') format('svg');
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -18,7 +18,7 @@
 @font-face {
   font-family: 'HelveticaMedium';
   src: url('./fonts/HelveticaLight/HelveticaMedium.eot');
-  src: local('☺'), url('fonts/HelveticaLight/HelveticaMedium.woff') format('woff'), url('./fonts/HelveticaLight/HelveticaMedium.ttf') format('truetype'), url('./fonts/HelveticaLight/HelveticaMedium.svg') format('svg');
+  src: local('☺'), url('fonts/HelveticaMedium/HelveticaMedium.woff') format('woff'), url('./fonts/HelveticaMedium/HelveticaMedium.ttf') format('truetype'), url('./fonts/HelveticaMedium/HelveticaMedium.svg') format('svg');
   font-weight: 500;
   font-style: normal;
 }
@@ -96,6 +96,7 @@ body {
 .item-nav {
   font-family: 'HelveticaRegular';
   font-size: 15px;
+  letter-spacing: normal;
   color: #fff;
   cursor: pointer;
 }
@@ -110,19 +111,20 @@ body {
 .contact-item {
   display: flex;
   align-items: center;
-  font-family: 'HelveticaRegular';
+  font-family: 'HelveticaMedium';
   font-size: 15px;
+  letter-spacing: normal;
 }
 .contact-item:nth-child(1n) {
-  max-width: 168px;
+  max-width: 172px;
 }
 
 .contact-item:nth-child(2n) {
-  max-width: 200px;
+  max-width: 210px;
 }
 
 .contact-item:nth-child(3n) {
-  max-width: 139px;
+  max-width: 145px;
 }
 
 .contact-item:not(:last-child) {
@@ -175,13 +177,13 @@ body {
 }
 .title-offers {
   margin-bottom: 9px;
-  font-family: 'FtySpeedyCasual001Ncv';
+  font-family: 'FtySpeedyCasualNcv';
   font-weight: normal;
   font-size: 35px;
   color: #079045;
 }
 .subtitle-offers {
-  font-family: 'FtySpeedyCasual001Ncv';
+  font-family: 'FtySpeedyCasualNcv';
   font-size: 50px;
   font-weight: normal;
   margin-bottom: 3px;
@@ -207,7 +209,7 @@ body {
 }
 .price-title-offers {
   margin-bottom: 20px;
-  font-family: 'FtySpeedyCasual001Ncv';
+  font-family: 'FtySpeedyCasualNcv';
   font-weight: normal;
   font-size: 25px;
 }
@@ -254,7 +256,7 @@ body {
   margin: auto;
   padding: 12px 30px;
   background-color: #0a7d3e;
-  border-radius: 50px;
+  border-radius: 25px;
   color: #fff;
   font-family:'HelveticaRegular';
   font-size: 20px;
@@ -288,7 +290,7 @@ body {
   z-index: 1;
 }
 .title-reserve {
-  font-family: 'FtySpeedyCasual001Ncv';
+  font-family: 'FtySpeedyCasualNcv';
   font-size: 120px;
   letter-spacing: 0.06em;
   line-height: normal;
@@ -302,7 +304,7 @@ body {
 }
 .subetitle-reserve {
   margin-bottom: 70px;
-  font-family: 'FtySpeedyCasual001Ncv';
+  font-family: 'FtySpeedyCasualNcv';
   font-size: 75px;
   letter-spacing: 0.03em;
   color: inherit;
@@ -332,6 +334,9 @@ body {
 }
 .img-frog-reserve {
   z-index: 1;
+}
+.img-frog-reserve  {
+  top: 0;
 }
 
 /* fourth section */
