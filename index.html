@@ -11,22 +11,42 @@
     <header>
       <div class="container header-container">
         <div class="wrap-logo">
-          <img class="img-logo" src="./img/Logo-top.jpg" alt="logo-name" />
+          <img src="./img/Logo-top.jpg" alt="logo-name" />
         </div>
-        <div>
-          <ul class="contacts-list">
-            <li class="contact-item">
+        <div class="logo-mobile"><img src="./img/Logo-down.png" alt="" /></div>
+        <button
+          type="button"
+          class="menu-button"
+          data-menu-button
+          aria-label="Mobile menu switch"
+          aria-controls="menu-container"
+          aria-expanded="false"
+        >
+          <svg width="40" height="40" aria-label="Mobile menu switch">
+            <use
+              class="icon-close-menu"
+              href="./img/adaptiv-header.svg#icon-close"
+            ></use>
+            <use
+              class="icon-menu"
+              href="./img/adaptiv-header.svg#icon-menu"
+            ></use>
+          </svg>
+        </button>
+        <div class="boxes" id="menu-container" data-menu>
+          <ul>
+            <li>
               <img class="icon" src="./img/icon-clock.png" alt="clock" />Hours
               Of Operation <br />10am To 9pm
             </li>
-            <li class="contact-item">
+            <li>
               <img class="icon" src="./img/icon-location.png" alt="location" />
               <a href="https://goo.gl/maps/eJZ7s5VhvdE6NzFe7" target="_blank"
                 >971 Winterberry Dr.,<br />
                 Marco Island, FL. 34145</a
               >
             </li>
-            <li class="contact-item">
+            <li>
               <img class="icon" src="./img/icon-phone.png" alt="phone" />
               <a href="tel:(239)970-0561"
                 >Call For Details <br />
@@ -36,19 +56,20 @@
           </ul>
         </div>
       </div>
-      <div class="header-nav">
-        <nav class="container wrap-nav">
+      <div class="wrap-nav">
+        <nav class="container">
           <ul class="list-nav">
-            <li class="item-nav">Hours</li>
-            <li class="item-nav">Prices</li>
-            <li class="item-nav">Refreshements</li>
-            <li class="item-nav">Gallery</li>
+            <li><a href="#">Hours</a></li>
+            <li><a href="#">Prices</a></li>
+            <li><a href="#">Refreshements</a></li>
+            <li><a href="#">Gallery</a></li>
           </ul>
+          
         </nav>
       </div>
     </header>
-    <section>
-      <div>
+    <section >
+      <div class="banFrog">
         <img
           class="img-banner"
           src="./img/Banner-top.jpg"
@@ -57,9 +78,8 @@
         />
       </div>
       <div class="wrap-advertising">
-        <p class="text-advertising">Get The Best <br />Golf Experience</p>
+        <p>Get The Best <br />Golf Experience</p>
         <img
-          class="img-advertising"
           src="./img/icon-golf.png"
           alt="two crossed golf clubs"
           title="two crossed golf clubs"
@@ -72,60 +92,56 @@
     </section>
     <section class="section-offers">
       <div class="container">
-        <div class="inner-offers">
-          <h1 class="title-offers">Offers</h1>
-          <h2 class="subtitle-offers">Marco Golf & Garden</h2>
-          <img class="img-line" src="./img/icon-title-line.png" alt="line" />
+        <div class="wrap-title">
+          <h1>Offers</h1>
+          <h2>Marco Golf & Garden</h2>
+          <img src="./img/icon-title-line.png" alt="line" />
         </div>
         <div>
           <ul class="list-price-offers">
             <li class="item-price-offers">
-              <img class="img-offers" src="./img/pic-1-clock.png" alt="clock" />
-              <h3 class="price-title-offers">Golf Course Hours</h3>
-              <p class="price-text-offers">7 Days A Week: 10am - 9pm</p>
-              <a class="link-btn-offers" href="">Read more</a>
+              <img src="./img/pic-1-clock.png" alt="clock" />
+              <h3>Golf Course Hours</h3>
+              <span>7 Days A Week: 10am - 9pm</span>
+              <a>Read more</a>
             </li>
             <li class="item-price-offers">
-              <img class="img-offers" src="./img/pic-1-coins.png" alt="coins" />
-              <h3 class="price-title-offers">Price Per Game Per Player</h3>
+              <img src="./img/pic-1-coins.png" alt="coins" />
+              <h3>Price Per Game Per Player</h3>
               <div class="wrap-list">
                 <ul class="list-player">
-                  <li class="item-player">Adult</li>
-                  <li class="item-player">Seniors (65+)</li>
-                  <li class="item-player">College Students (With ID)</li>
-                  <li class="item-player">Kids Ages 6-10</li>
-                  <li class="item-player">Kids Ages 5 And Under</li>
+                  <li>Adult</li>
+                  <li>Seniors (65+)</li>
+                  <li>College Students (With ID)</li>
+                  <li>Kids Ages 6-10</li>
+                  <li>Kids Ages 5 And Under</li>
                 </ul>
                 <ul class="list-prise">
-                  <li class="item-prise">$13</li>
-                  <li class="item-prise">$8</li>
-                  <li class="item-prise">$10</li>
-                  <li class="item-prise">$10</li>
-                  <li class="item-prise">Free</li>
+                  <li>$13</li>
+                  <li>$8</li>
+                  <li>$10</li>
+                  <li>$10</li>
+                  <li>Free</li>
                 </ul>
               </div>
-              <a class="link-btn-offers" href="">Read more</a>
+              <a>Read more</a>
             </li>
             <li class="item-price-offers">
-              <img
-                class="img-offers"
-                src="./img/pic-1-icecream.png"
-                alt="icecream"
-              />
-              <h3 class="price-title-offers">Refreshments</h3>
-              <p class="price-text-offers">
-                Complimentary Bottled Water <br />Soda & Ice Cream Available For
-                Purchase
-              </p>
-              <a class="link-btn-offers" href="">Read more</a>
+              <img src="./img/pic-1-icecream.png" alt="icecream" />
+              <h3>Refreshments</h3>
+              <span
+                >Complimentary Bottled Water <br />Soda & Ice Cream Available
+                For Purchase</span>
+              <a>Read more</a>
             </li>
           </ul>
         </div>
       </div>
     </section>
     <section class="section-reserve">
-      <div class="container">
-        <div class="wrapper-reserve">
+      <div class="wrap-banner">
+        <img class="" src="./img/Banner-down.jpg" alt="" />
+      </div>
           <div class="text-reserve">
             <h1 class="title-reserve">
               RESERVE
@@ -135,18 +151,9 @@
               FOR YOUR NEXT
               <span>CELEBRATION OR EVENT</span>
             </h2>
-            <a class="link-btn-call" href="">(239) 970-0561 Call For Details</a>
-          </div>
-          <div class="img-frog-reserve">
-            <img src="img/Banner-down.png" alt="frog" />
-          </div>
-        </div>
-      </div>
-      <div class="wrap-bcg-img">
-        <img class="bcg-image" src="./img/bcg.jpg" alt="" />
-      </div>
+            <a class="link-btn-call" href="">(239) 970-0561 </br>Call For Details</a>
+          </div> 
     </section>
-
     <section class="section-map">
       <iframe
         class="map"
@@ -158,39 +165,43 @@
     <footer class="section-footer">
       <div class="container footer-container">
         <div class="wrap-logo-footer">
-          <img class="img-logo-footer" src="./img/Logo-down.png" alt="" />
-          <p class="text-logo-footer">Marco Golf & Garden</p>
+          <img src="./img/Logo-down.png" alt="" />
+          <p>Marco Golf & Garden</p>
         </div>
-        <ul class="contacts-list contacts-list-footer">
-          <li class="contact-item contact-item-footer">
-            <img class="icon" src="./img/icon-clock.png" alt="clock" />Hours Of
-            Operation 10am To 9pm
-          </li>
-          <li class="contact-item contact-item-footer">
-            <img class="icon" src="./img/icon-location.png" alt="location" />
-            <a href="https://goo.gl/maps/eJZ7s5VhvdE6NzFe7" target="_blank"
-              >971 Winterberry Dr.,<br />
-              Marco Island, FL. 34145</a
-            >
-          </li>
-          <li class="contact-item contact-item-footer">
-            <img class="icon" src="./img/icon-phone.png" alt="phone" />
-            <a href="tel:(239)970-0561"> Call For Details (239) 970-0561</a>
-          </li>
-        </ul>
-        <ul class="list-nav list-navigation-footer">
-          <li class="item-nav item-navigation-footer">Hours</li>
-          <li class="item-nav item-navigation-footer">Prices</li>
-          <li class="item-nav item-navigation-footer">Refreshements</li>
-          <li class="item-nav item-navigation-footer">Gallery</li>
-        </ul>
+       
+        <div class="boxes-footer">
+          <ul>
+            <li>
+              <img class="icon" src="./img/icon-clock.png" alt="clock" />Hours
+              Of Operation <br />10am To 9pm
+            </li>
+            <li>
+              <img class="icon" src="./img/icon-location.png" alt="location" />
+              <a href="https://goo.gl/maps/eJZ7s5VhvdE6NzFe7" target="_blank">971 Winterberry Dr.,<br />
+                Marco Island, FL. 34145</a>
+            </li>
+            <li>
+              <img class="icon" src="./img/icon-phone.png" alt="phone" />
+              <a href="tel:(239)970-0561">Call For Details <br />
+                (239) 970-0561</a>
+            </li>
+          </ul>
+        </div>
+              <ul class="list-nav list-navigation-footer">
+                <li> <a href="">Hours</a></li>
+                <li> <a href="">Prices</a> </li>
+                <li> <a href="">Refreshements</a> </li>
+                <li> <a href="">Gallery</a> </li>
+              </ul>
       </div>
       <div class="wrap-bottom">
-        <p class="footer-bottom">
+        <p>
           Designed And Managed By WebmastersDesktop.Com © 2022 All Rights
           Reserved
         </p>
       </div>
     </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
